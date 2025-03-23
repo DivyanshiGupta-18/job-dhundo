@@ -185,7 +185,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Upload, Briefcase, Star, Settings, Users, MessageSquare } from 'lucide-react';
+import { Upload, Briefcase, Star } from 'lucide-react';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
