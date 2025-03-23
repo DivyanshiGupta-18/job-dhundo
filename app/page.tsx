@@ -181,7 +181,6 @@
 // export default page
 
 
-"use client"
 
 import React from 'react';
 import { motion } from 'framer-motion';
@@ -205,7 +204,7 @@ const page = () => {
             className="w-full h-full object-cover"
             poster="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80"
           >
-            <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1a9e7c02d&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
+            <source src="https://player.vimeo.com/external/434045526.sd.mp4?s=c27eecc69a27dbc4ff2b87d38afc35f1a9e7c02d&profile_id=164&oauth2_token_id=57447761" type="video/mp4"/>
           </video>
         </div>
         <motion.div
@@ -287,19 +286,22 @@ const page = () => {
                 company: "Google",
                 role: "Senior Software Engineer",
                 location: "Remote",
-                image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&q=80"
+                image: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&q=80",
+                alt:"Description"
               },
               {
                 company: "Meta",
                 role: "Product Manager",
                 location: "New York",
-                image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80"
+                image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80",
+                alt:"Description"
               },
               {
                 company: "Apple",
                 role: "UI/UX Designer",
                 location: "California",
-                image: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&q=80"
+                image: "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&q=80",
+                alt:"Description"
               }
             ].map((job, index) => (
               <motion.div

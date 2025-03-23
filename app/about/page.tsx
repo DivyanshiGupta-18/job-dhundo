@@ -10,8 +10,6 @@ const page = () => {
             <h1 className="text-4xl font-bold text-gray-800 mb-4">About Job-Dhundo</h1>
             <p className="text-xl text-gray-600">Your Gateway to Finding the Perfect Job</p>
           </header>
-          <p>We&apos;re excited to launch our new platform!</p>
-          <p>She said, &ldquo;This is amazing!&rdquo;</p>
 
           {/* Mission Section */}
           <section className="mb-12">
@@ -53,7 +51,7 @@ const page = () => {
           <section>
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Contact Us</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Have questions or need assistance? Feel free to reach out to us at{' '}
+              Have questions or need assistance? Feel free to reach out to us at{" "}
               <a
                 href="mailto:support@jobdhundo.com"
                 className="text-blue-600 hover:text-blue-800 underline"
