@@ -18,7 +18,7 @@ const Navbar = () => {
             className="flex items-center space-x-2"
           >
             <Briefcase className="h-8 w-8 text-blue-400" />
-            <span className="text-xl font-bold text-white">JobHunt</span>
+            <span className="text-xl font-bold text-white">Job-Dhundo</span>
           </motion.div>
 
           {/* Desktop Navigation */}
