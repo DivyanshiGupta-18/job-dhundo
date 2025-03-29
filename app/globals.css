@@ -46,14 +46,32 @@ body {
   animation: float 6s ease-in-out infinite;
 }
 
+
+.gradient-bg {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
   100% {
     transform: translateY(0px);
   }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
 }
