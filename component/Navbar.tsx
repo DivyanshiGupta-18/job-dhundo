@@ -31,15 +31,18 @@ const Navbar = () => {
 
           {/* Desktop Right Section */}
           <div className="hidden md:flex items-center space-x-6">
-            <button className="text-gray-300 hover:text-white transition duration-200">
+            <Link href="/LoginPage" className="text-gray-300 hover:text-white transition duration-200">
               <Search className="h-5 w-5" />
-            </button>
-            <button className="text-gray-300 hover:text-white transition duration-200">
+            </Link>
+
+            <Link href="/LoginPage" className="text-gray-300 hover:text-white transition duration-200">
               <Bell className="h-5 w-5" />
-            </button>
-            <button className="text-gray-300 hover:text-white transition duration-200">
+            </Link>
+
+            <Link href="/LoginPage" className="text-gray-300 hover:text-white transition duration-200">
               <User className="h-5 w-5" />
-            </button>
+            </Link>
+
             <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition duration-300">
               Post a Job
             </button>
