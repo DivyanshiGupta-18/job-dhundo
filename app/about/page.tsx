@@ -51,7 +51,7 @@ const page = () => {
           <section>
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Contact Us</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Have questions or need assistance? Feel free to reach out to us at{" "}
+              Have questions or need assistance? Feel free to reach out to us at{' '}
               <a
                 href="mailto:support@jobdhundo.com"
                 className="text-blue-600 hover:text-blue-800 underline"
@@ -64,7 +64,7 @@ const page = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default page;

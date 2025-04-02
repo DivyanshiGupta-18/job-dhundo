@@ -1,5 +1,4 @@
-
-"use client"; 
+"use client";
 
 import React, { useState, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -71,7 +70,7 @@ const Page: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="container mx-auto text-center relative z-10"
         >
-          <motion.h1 
+          <motion.h1
             className="text-6xl font-bold mb-6 mt-10"
             initial={{ scale: 0.9 }}
             animate={{ scale: 1 }}
@@ -79,7 +78,7 @@ const Page: React.FC = () => {
           >
             Find Your Dream Job with AI-Powered Job Search
           </motion.h1>
-          <motion.p 
+          <motion.p
             className="text-2xl mb-8 text-blue-200"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -113,8 +112,8 @@ const Page: React.FC = () => {
         </motion.div>
       </section>
 
-       {/* Resume Score */}
-       {resumeScore !== null && (
+      {/* Resume Score */}
+      {resumeScore !== null && (
         <section className="text-center py-10 bg-gray-800">
           <h2 className="text-2xl">Resume Score: {resumeScore}%</h2>
           <p className="text-gray-400">Improve by adding more experience and skills</p>
@@ -151,7 +150,7 @@ const Page: React.FC = () => {
       </section>
 
       <section className="py-20 bg-gray-800">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -186,7 +185,7 @@ const Page: React.FC = () => {
                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                 className="bg-gray-700 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300"
               >
-                <motion.div 
+                <motion.div
                   className="flex justify-center mb-6 text-4xl"
                   animate={{ rotate: [0, 10, 0] }}
                   transition={{ duration: 2, repeat: Infinity }}
@@ -205,7 +204,7 @@ const Page: React.FC = () => {
 
       {/* Featured Jobs with Enhanced Animations */}
       <section className="py-20 bg-gray-900">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -257,7 +256,7 @@ const Page: React.FC = () => {
                   <p className="text-blue-400 mb-4">
                     {job.company} - {job.location}
                   </p>
-                  <motion.button 
+                  <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition duration-300"
@@ -273,7 +272,7 @@ const Page: React.FC = () => {
 
       {/* Testimonials with Enhanced Animations */}
       <section className="py-20 gradient-bg">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
@@ -318,7 +317,9 @@ const Page: React.FC = () => {
                   whileHover={{ scale: 1.1 }}
                   transition={{ duration: 0.3 }}
                 />
-                <p className="text-lg mb-4">"{testimonial.text}"</p>
+                <p className="text-lg mb-4">
+                  &quot;{testimonial.text}&quot;
+                </p>
                 <p className="font-semibold">{testimonial.author}</p>
                 <p className="text-blue-300">{testimonial.role}</p>
               </motion.div>
@@ -326,7 +327,7 @@ const Page: React.FC = () => {
           </div>
         </motion.div>
       </section>
-      
+
       {/* Recommended Jobs */}
       <section className="py-16 px-6 bg-gray-900">
         <h2 className="text-3xl font-bold mb-6 text-center">🎯 Recommended Jobs</h2>
@@ -346,7 +347,7 @@ const Page: React.FC = () => {
           ))}
         </div>
       </section>
-      
+
       {/* Applied Jobs Section */}
       {appliedJobs.length > 0 && (
         <section className="py-16 bg-gray-800 text-center">
@@ -358,11 +359,10 @@ const Page: React.FC = () => {
           </ul>
         </section>
       )}
-      
 
       {/* Contact Section with Enhanced Animation */}
       <section className="py-20 bg-gray-800">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -374,7 +374,7 @@ const Page: React.FC = () => {
           <p className="text-xl mb-12 text-gray-300">
             Join thousands of professionals who found their dream jobs through our platform
           </p>
-          <motion.button 
+          <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-blue-500 text-white px-10 py-4 rounded-full font-semibold hover:bg-blue-600 transition duration-300"
