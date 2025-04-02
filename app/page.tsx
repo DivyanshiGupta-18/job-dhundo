@@ -69,6 +69,7 @@ const Page: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="container mx-auto text-center relative z-10"
+          style={{ scale: scale }} 
         >
           <motion.h1
             className="text-6xl font-bold mb-6 mt-10"
