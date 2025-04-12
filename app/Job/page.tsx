@@ -134,6 +134,7 @@
 import { useState } from "react";
 import { ExternalLink, Building2, HelpCircle, Search, ChevronDown } from 'lucide-react';
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 // Simple Custom Accordion Component with Animation
 function Accordion({ children }: { children: React.ReactNode }) {

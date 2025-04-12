@@ -1,4 +1,5 @@
-import React from 'react';
+"use client"
+import React from "react";
 
 const page = () => {
   return (
@@ -35,7 +36,7 @@ const page = () => {
           <section className="mb-12">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Why Choose Job-Dhundo?</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Job-Dhundo stands out because of its user-friendly interface, comprehensive job listings, and a wide range of features designed to meet the needs of both job seekers and employers. Whether you're looking for your dream job or the perfect candidate, Job-Dhundo is here to help.
+              Job-Dhundo stands out because of its user-friendly interface, comprehensive job listings, and a wide range of features designed to meet the needs of both job seekers and employers. Whether you&apos;sre looking for your dream job or the perfect candidate, Job-Dhundo is here to help.
             </p>
           </section>
 
@@ -51,7 +52,7 @@ const page = () => {
           <section>
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Contact Us</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Have questions or need assistance? Feel free to reach out to us at{' '}
+              Have questions or need assistance? Feel free to reach out to us at{" "}
               <a
                 href="mailto:support@jobdhundo.com"
                 className="text-blue-600 hover:text-blue-800 underline"
