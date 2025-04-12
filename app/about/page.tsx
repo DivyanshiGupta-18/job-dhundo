@@ -36,7 +36,7 @@ const page = () => {
           <section className="mb-12">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Why Choose Job-Dhundo?</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Job-Dhundo stands out because of its user-friendly interface, comprehensive job listings, and a wide range of features designed to meet the needs of both job seekers and employers. Whether you are looking for your dream job or the perfect candidate , Job-Dhundo is here to help.
+            Job Dhundo is more than just a job platform – it is your career partner. We combine smart technology with a strong understanding of hiring needs to deliver personalized job matches, easy-to-use tools, and instant job alerts. Whether you are starting your career or searching for your next big role, Job Dhundo makes the process smooth, fast, and supportive from beginning to end.
             </p>
           </section>
 
