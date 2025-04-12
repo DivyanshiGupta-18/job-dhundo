@@ -77,7 +77,7 @@ const Page: React.FC = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            Find Your Dream Job with AI-Powered Job Search
+            can you jnee
           </motion.h1>
           <motion.p
             className="text-2xl mb-8 text-blue-200"
